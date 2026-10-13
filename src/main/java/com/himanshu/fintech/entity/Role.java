@@ -27,6 +27,12 @@ public class Role {
     public Role() {
     }
 
+    public Role(Long id, String name, LocalDateTime createdAt) {
+        this.id = id;
+        this.name = name;
+        this.createdAt = createdAt;
+    }
+
     public Role(String name) {
         this.name = name;
     }
